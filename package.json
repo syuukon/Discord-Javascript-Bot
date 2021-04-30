@@ -1,0 +1,30 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "./src/init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/init.js",
+    "dev": "nodemon ./src/init.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^8.2.0",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^4.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syuukon/Discord-Music-Bot-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syuukon/Discord-Music-Bot-Test/issues"
+  },
+  "homepage": "https://github.com/syuukon/Discord-Music-Bot-Test#readme",
+  "description": ""
+}
