@@ -1,3 +1,3 @@
 module.exports.run = async(client, message, args) => {
-  message.channel.send("play command working.");
+    message.channel.send("pause command working.");
 }
