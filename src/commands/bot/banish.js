@@ -1,3 +1,5 @@
 module.exports.run = async(client, message, args) => {
-    message.channel.send("banish command working.");
-}
+    message.member.voice.channel.leave()
+    message.channel.send(":wave:");
+    return;
+ }
