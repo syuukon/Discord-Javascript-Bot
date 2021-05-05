@@ -1,3 +1,3 @@
 module.exports.run = async(client, message, args) => {
-    message.channel.send("mute command working.");
+    message.channel.send("Mute command is a work in progress.");
 }
